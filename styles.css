@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+    --deepchocolate: #1c1007;
+    --caramelgold: #c47b2b;
+    --softblush: #f2c4a0;
+    --mutedsage: #7a8c6e;
+    --font1: "Playfair Display", Georgia, serif;
+    --font2: "DM Sans", Arial, sans-serif;
+    --font3: "Cormorant Garamond", Georgia, serif;
+}
+
+body {
+    font-family: var(--font2);
+}
+
+h1, h2, h3 {
+    font-family: var(--font1);
+}
+
+html {
+    background-color: #7a8c6e;
+}
+
+#content {
+    background-color: #f2c4a0;
+    max-width: 2000px;
+}
+
+header {
+    background-color: var(--caramelgold);
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.logo {
+    grid-column: 1/1;
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    grid-column: 2/2;
+    justify-content: space-between;
+}
+
+nav a {
+    vertical-align: baseline;
+    padding: 50px;
+    margin: auto;
+}
+
+main {
+    background-color: var(--deepchocolate);
+}
+
+main p, h4, h5{
+    color: var(--softblush)
+}
+
+footer {
+    background-color: var(--caramelgold);
+}
