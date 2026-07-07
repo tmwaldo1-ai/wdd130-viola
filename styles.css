@@ -30,12 +30,15 @@ html {
 header {
     background-color: var(--caramelgold);
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 300px 1fr;
+    height: 150px
 }
 
 .logo {
+    object-fit: cover;
     grid-column: 1/1;
-    width: 150px;
+    height: 150px;
+    width: 300px;
 }
 
 nav {
@@ -46,8 +49,16 @@ nav {
 
 nav a {
     vertical-align: baseline;
-    padding: 50px;
+    padding: 60px;
     margin: auto;
+    text-decoration: none;
+    color: #1c1007;
+    height: 30px;
+}
+
+nav a:hover {
+    background-color: #f2c4a0;
+    text-decoration: underline;
 }
 
 main {
