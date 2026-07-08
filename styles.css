@@ -12,6 +12,7 @@
 
 body {
     font-family: var(--font2);
+    margin: 0px;
 }
 
 h1, h2, h3 {
@@ -33,6 +34,8 @@ header {
     grid-template-columns: 300px 1fr;
     height: 150px;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .logo {
@@ -64,6 +67,7 @@ nav a:hover {
 
 main {
     background-color: var(--deepchocolate);
+    padding-top: 142px;
 }
 
 main p, h4, h5{
@@ -73,21 +77,34 @@ main p, h4, h5{
 #hero {
     display: flex;
     background-color: #f2c4a0;
+    width: 100%;
 }
 
 #hero-text {
-    width: 400px;
+    width: 40%;
     margin: 2px;
     flex-shrink: 0;
 }
 
-#hero-text a, h4{
+#hero-text h4{
     color: #1c1007;
 }
 
 #hero-img{
-    width: 1600px;
+    width: 60%;
     flex-shrink: 0;
+}
+
+#hero-img img {
+    width: 100%;
+}
+
+#browse-button{ 
+    background-color: var(--deepchocolate);
+    color: #f2c4a0;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
 }
 
 footer {
