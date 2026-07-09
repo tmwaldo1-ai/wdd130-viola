@@ -26,6 +26,8 @@ html {
 #content {
     background-color: #f2c4a0;
     max-width: 1500px;
+    display: grid;
+    place-items: center;
 }
 
 header {
@@ -67,7 +69,7 @@ nav a:hover {
 
 main {
     background-color: var(--deepchocolate);
-    padding-top: 142px;
+    padding-top: 140px;
 }
 
 main p, h4, h5{
@@ -78,11 +80,12 @@ main p, h4, h5{
     display: flex;
     background-color: #f2c4a0;
     width: 100%;
+    height: 500px
 }
 
 #hero-text {
     width: 40%;
-    margin: 2px;
+    margin: 10px;
     flex-shrink: 0;
 }
 
@@ -96,15 +99,21 @@ main p, h4, h5{
 }
 
 #hero-img img {
-    width: 100%;
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
 }
 
 #browse-button{ 
     background-color: var(--deepchocolate);
     color: #f2c4a0;
     border-radius: 5px;
-    padding: 4px;
+    padding: 8px;
     text-decoration: none;
+}
+
+#info {
+    margin: 12px;
 }
 
 footer {
