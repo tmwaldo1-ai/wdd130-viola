@@ -13,6 +13,8 @@
 body {
     font-family: var(--font2);
     margin: 0px;
+    display: grid;
+    place-items: center;
 }
 
 h1, h2, h3 {
@@ -26,8 +28,7 @@ html {
 #content {
     background-color: #f2c4a0;
     max-width: 1500px;
-    display: grid;
-    place-items: center;
+    
 }
 
 header {
@@ -35,9 +36,10 @@ header {
     display: grid;
     grid-template-columns: 300px 1fr;
     height: 150px;
-    width: 100%;
+    width: 105%;
     position: fixed;
     top: 0;
+    left: -6px;
 }
 
 .logo {
@@ -70,6 +72,7 @@ nav a:hover {
 main {
     background-color: var(--deepchocolate);
     padding-top: 140px;
+    width: 95%;
 }
 
 main p, h4, h5{
@@ -84,17 +87,17 @@ main p, h4, h5{
 }
 
 #hero-text {
-    width: 40%;
-    margin: 10px;
+    width: 600px;
     flex-shrink: 0;
 }
 
-#hero-text h4{
+#hero-text h2{
     color: #1c1007;
+    padding: 10px;
 }
 
 #hero-img{
-    width: 60%;
+    width: 900px;
     flex-shrink: 0;
 }
 
@@ -109,6 +112,7 @@ main p, h4, h5{
     color: #f2c4a0;
     border-radius: 5px;
     padding: 8px;
+    margin: 10px;
     text-decoration: none;
 }
 
@@ -118,4 +122,5 @@ main p, h4, h5{
 
 footer {
     background-color: var(--caramelgold);
+    width: 100%;
 }
