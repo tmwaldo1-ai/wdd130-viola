@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Macro Desserts</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    #featuredrec a {
+        margin-left: 16px;
+        color: #f2c4a0;
+        text-decoration: none;
+        padding: 6px;
+
+    }
+
+    #featuredrec h4 {
+        margin: 12px;
+    }
+
+    #featuredrec {
+        margin-bottom: 12px;
+    }
+
+    main p,
+    h4,
+    h5 {
+        color: var(--softblush)
+    }
+
+    #hero {
+        display: flex;
+        background-color: #f2c4a0;
+        width: 100%;
+        height: 500px
+    }
+
+    #hero-text {
+        width: 40%;
+        flex-shrink: 0;
+    }
+
+    #hero-text h2 {
+        color: #1c1007;
+        padding: 10px;
+    }
+
+    #hero-img {
+        width: 60%;
+        flex-shrink: 0;
+    }
+
+    #hero-img img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    #browse-button {
+        background-color: var(--deepchocolate);
+        color: #f2c4a0;
+        border-radius: 5px;
+        padding: 8px;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    #info {
+        margin: 12px;
+    }
+</style>
+
 <body>
     <div id="content">
         <header>
@@ -19,7 +85,7 @@
         <main>
             <div id="hero">
                 <section id="hero-text">
-                    <h2>Dessert that works as hard as you do.</h2>  
+                    <h2>Dessert that works as hard as you do.</h2>
                     <a id="browse-button" href="recipes.html">Browse Recipes &#8594; </a>
                 </section>
                 <section id="hero-img">
@@ -28,13 +94,18 @@
             </div>
             <section id="info">
                 <h4>Mission Statement</h4>
-                <p>MacroDesserts is a recipe website for people who refuse to choose between hitting their macros and satisfying a sweet tooth. Every recipe comes with a built-in nutrition label so you always know exactly what you are eating. No apps, no calculators, no guesswork — just visit the site and start cooking.</p>
+                <p>MacroDesserts is a recipe website for people who refuse to choose between hitting their macros and
+                    satisfying a sweet tooth. Every recipe comes with a built-in nutrition label so you always know
+                    exactly what you are eating. No apps, no calculators, no guesswork — just visit the site and start
+                    cooking.</p>
                 <h4>Why MacroDesserts</h4>
-                <p>Every recipe on MacroDesserts uses smart, real-food protein sources like Greek yogurt, cottage cheese, and almond butter — ingredients that make desserts taste better, not just healthier. We believe dessert and fitness goals are not opposites. MacroDesserts proves it.</p>
+                <p>Every recipe on MacroDesserts uses smart, real-food protein sources like Greek yogurt, cottage
+                    cheese, and almond butter — ingredients that make desserts taste better, not just healthier. We
+                    believe dessert and fitness goals are not opposites. MacroDesserts proves it.</p>
             </section>
             <section id="featuredrec">
-                <img>
-                <p></p>
+                <h4>Featured Recipe:</h4>
+                <a href="">Protein Cheesecake</a>
             </section>
         </main>
         <footer>
@@ -43,4 +114,5 @@
         </footer>
     </div>
 </body>
+
 </html>
